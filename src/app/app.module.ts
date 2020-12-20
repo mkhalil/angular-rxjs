@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { RxjsOperatorComponent } from './exhaust-map/rxjs-operator.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RxjsOperatorComponent
   ],
   imports: [
     BrowserModule
